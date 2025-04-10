@@ -31,6 +31,7 @@ chmod +x system_health_check.sh
 
 ## Or add to cron for daily execution:
 crontab -e
+
 0 7 * * * /absolute/path/system_health_check.sh
 
 ## 📥 Output
